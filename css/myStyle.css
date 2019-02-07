@@ -1,0 +1,62 @@
+
+ 
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+  
+ 
+  nav {
+    float:center;
+    width: 10%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+  }
+  
+ 
+ 
+  article {
+   
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+  }
+  
+ 
+  section{
+  
+    padding: 90px;
+    width: 30%;
+    background-color: #f1f1f1;
+    height:100pc;
+    
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+
+    nav, article {
+      width: 100%;
+     
+    }

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Grizilly Store</title>
+  <style>
+    #ip0
+    {
+      float: right;
+      border-radius: 25px;
+    border: 0px solid gray;
+    padding: 15px; 
+    width: 100px;
+    height: 20px;
+    font:bold 15px;
+    }
+    #ip1
+    {
+      
+      border-radius: 25px;
+    border: 0px solid gray;
+    padding: 10px; 
+    width: 200px;
+    height: 10px;
+    }
+    #ip2 {
+     /* border-radius: 25px;
+    border: 2px solid gray; */
+    float:left;
+    padding: 16px; 
+    width: 200px;
+    height: 15px; 
+    margin: 2px;   
+    border: 1px solid whitesmoke;
+  padding: 10px;
+  box-shadow: 5px 10px solid rgba(245, 245, 245, 0.808);
+  
+}
+#ip3
+{
+  float:left;
+  margin:2px;
+  width: 200px;
+  height:15px;
+  padding : 16px;
+  border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 10px solid whitesmoke;
+  
+}
+
+.notification {
+
+ 
+  padding: 15px 26px;
+  border-radius: 2px;
+}
+.notification:hover {
+  background:blanchedalmond;
+}
+
+    header
+    {
+      background-color: rgb(102, 102, 102);
+    padding: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+    }
+    div.sidebar
+    {
+      float: left;
+background-color: rgb(199, 185, 185);
+padding:90px;
+width:25%;
+height: 600px;
+margin: 20px;
+  }
+  div.sidebar1
+    {
+      float: left;
+background-color: gainsboro;
+padding:80px;
+width:100%;
+height: 0px;
+margin: -80px;
+  }
+  div.sidebar2
+    {
+      float: left;
+background-color: gainsboro;
+padding:80px;
+width:5%;
+height: px;
+margin: 90px;
+  }
+  div.sidebar3
+    {
+      float: left;
+background-color: rgb(199, 185, 185);
+padding:30px;
+width:10%;
+height: 5px;
+margin: 110px;
+  }
+  div.middlebar
+  {
+    box-shadow: 60px -16px solid gray;
+    float:left;
+    background-color: gainsboro;
+    padding:50px;
+width:25%;
+height: 70px;
+margin: 20px;
+}
+div.lastbar
+  {
+    
+    box-shadow: 60px -16px solid gray;
+    float:left;
+    background-color: gainsboro;
+    padding:50px;
+width:15%;
+height: 30px;
+margin: 20px;
+ }
+ div.mainbar
+ {
+  
+    float:left;
+    background-color: white;
+    padding:50px;
+width:15%;
+height: 250px;
+margin: 2px
+
+ }
+ .feedback {
+   float:left;
+  background-color : #9a9d9e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #9a9d9e;
+}
+.feedback1 {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: gray;
+}
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+   
+ 
+    </style></head>
+    <body>
+      <header>
+        <table style="width:100%">
+       <tr> <th>  <p style="text-align: left">GRIZZILY<img src="images/pic2.png" alt="logo" height="52" width="92"/>STORE</p>
+       </th> 
+         <th>     <input type="text" id="ip1" name="searchbar" placeholder="Search.." size="70"> 
+       </th>
+       <th>
+          <img src="images/download.png" class="notification" alt="noti" height="32" width="30"/>
+       </th>
+       <th>
+         <h4>Welcome, User</h4>
+       </th>
+         <th>     <input name="logout" type="submit" id="ip0" value="Logout">
+       </th> </tr>   
+     </table> </header>
+      <section><div class="sidebar">
+        <section><div class="sidebar1">
+
+  <table style="width:150%">
+    <tr>
+      <td><h1>PROFILE</h1> </td>
+      <td><input type=button class="feedback" value="Edit">
+    </tr>
+    </table>
+    </th></tr></div></section>
+<section><div class="sidebar2"></div></section>
+<section><div class="sidebar3">
+<center>
+
+  <h3>Helena Cheo</h3>
+  <h3>ID</h3>
+  <p>6287273</p>
+  <h3>DESIGNATION</h3>
+  <p>Senior Manager</p>
+  <h3>Office</h3>
+  <p>NYC, USA</p>
+  
+</center>
+</div>
+</section>
+
+      </section>
+    </div>
+
+      <section><div class="middlebar"><center><h1>PRODUCT</h1></center></div></section>
+      <section><div class="lastbar"><center><h1>VENDORS</h1></center></div></section>
+      <section><div class="mainbar">
+        <pre>
+          <input type="text" id="ip2" placeholder="Enter Product Id" name="uname" required>
+
+          <select id="ip3" >
+            <option>Category</option>
+          </select>
+          <input type="text" id="ip2" placeholder="Name" name="nam" required>
+
+          <input type="text" id="ip2" placeholder="Description" name="dsp" required>
+
+          <input type="text" id="ip2" placeholder="Price" name="pp" required>
+
+
+        </pre>
+      </div></section>
+<footer>
+    <div id="mybutton">
+      <pre>
+        <button class="feedback">Add</button><br>  <button class="feedback1">Cancel</button>
+        </pre>
+        </div>
+</footer>
+    </body>
+</html>
