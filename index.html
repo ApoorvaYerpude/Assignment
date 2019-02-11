@@ -10,7 +10,8 @@
     padding: 15px; 
     width: 100px;
     height: 20px;
-    font:bold 15px;
+    font:bold 18px;
+    text-align: center;
     }
     #ip1
     {
@@ -20,6 +21,16 @@
     padding: 10px; 
     width: 200px;
     height: 10px;
+    }
+     #searchb
+    {
+      background-color:gainsboro;
+      border-radius: 25px;
+    border: 0px solid gray;
+    padding: 10px; 
+    width: 300px;
+    height: 10px;
+    margin: 60px -80px;
     }
     #ip2 {
      /* border-radius: 25px;
@@ -35,14 +46,14 @@
   
 }
 #ip3
-{
+{ border-radius: 25px;
+  background-color:gainsboro;
   float:left;
-  margin:2px;
-  width: 200px;
+  margin:-90px 300px;
+  width: 110px ;
   height:15px;
-  padding : 16px;
   border: 1px solid whitesmoke;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 5px 10px solid whitesmoke;
   
 }
@@ -56,24 +67,41 @@
 .notification:hover {
   background:blanchedalmond;
 }
+.notification1
+{
+  background-color: white;
+  padding: -10px 20px;
+  height:500px;
+  width:220px 30px;
+  margin:10px -110px 90px ;
+}
 
     header
     {
       background-color: rgb(102, 102, 102);
-    padding: 40px;
+    padding: 25px;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     color: white;
     
     }
     div.sidebar
     {
       float: left;
+
+padding:80px;
+width:10%;
+height: 500px;
+margin: 15px;
+  }
+    div.sidebar00
+    {
+      float: left;
 background-color: rgb(199, 185, 185);
-padding:90px;
-width:25%;
-height: 600px;
-margin: 20px;
+padding:80px;
+width:15% -10%;
+height: 570px;
+margin: 15px;
   }
   div.sidebar1
     {
@@ -88,40 +116,52 @@ margin: -80px;
     {
       float: left;
 background-color: gainsboro;
-padding:80px;
-width:5%;
-height: px;
+padding:50px;
+width:-70%;
+height: -10pc;
 margin: 90px;
   }
   div.sidebar3
     {
       float: left;
 background-color: rgb(199, 185, 185);
-padding:30px;
-width:10%;
-height: 5px;
-margin: 110px;
+padding:0px;
+width:8%;
+height: 3px;
+margin: 5px;
+align-content: center;
   }
   div.middlebar
   {
-    box-shadow: 60px -16px solid gray;
+    
     float:left;
     background-color: gainsboro;
-    padding:50px;
-width:25%;
-height: 70px;
-margin: 20px;
+    padding:65px;
+width:100%;
+height: 5px;
+margin: -80px;
 }
+div.lastbar1
+  {
+    
+    box-shadow: 60px solid darkslateblue;
+    float:left;
+    background-color: lightslategrey;
+    padding:30px;
+width:10%;
+height: 20px;
+margin: 15px -20px;
+ }
 div.lastbar
   {
     
-    box-shadow: 60px -16px solid gray;
+  
     float:left;
     background-color: gainsboro;
-    padding:50px;
-width:15%;
-height: 30px;
-margin: 20px;
+    padding:20px 20px;
+width:10%;
+height: 25px;
+margin: 15px 50px;
  }
  div.mainbar
  {
@@ -149,6 +189,15 @@ margin: 2px
   border-radius: 4px;
   border-color: gray;
 }
+ .feedback2 {
+   float:left;
+  background-color :lightslategray;
+  color: snow;
+  padding: 10px 20px;
+  border-radius: 27px;
+  border-color:lightslategray;
+  
+}
 #mybutton {
   position: fixed;
   bottom: -4px;
@@ -165,20 +214,21 @@ margin: 2px
          <th>     <input type="text" id="ip1" name="searchbar" placeholder="Search.." size="70"> 
        </th>
        <th>
-          <img src="images/download.png" class="notification" alt="noti" height="32" width="30"/>
+          <img src="images/download.png" class="notification" alt="noti" height="26" width="26"/>
        </th>
        <th>
          <h4>Welcome, User</h4>
        </th>
-         <th>     <input name="logout" type="submit" id="ip0" value="Logout">
+         <th>     <input name="logout" type="button" class="feedback2" value="Logout">
        </th> </tr>   
      </table> </header>
-      <section><div class="sidebar">
+
+      <section><div class="sidebar00">
         <section><div class="sidebar1">
 
   <table style="width:150%">
     <tr>
-      <td><h1>PROFILE</h1> </td>
+      <td> <h1>PROFILE</h1> </td>
       <td><input type=button class="feedback" value="Edit">
     </tr>
     </table>
@@ -186,46 +236,51 @@ margin: 2px
 <section><div class="sidebar2"></div></section>
 <section><div class="sidebar3">
 <center>
+<pre>
+ <b style="text-align: right"> Helena Cheo</b>
 
-  <h3>Helena Cheo</h3>
-  <h3>ID</h3>
-  <p>6287273</p>
-  <h3>DESIGNATION</h3>
-  <p>Senior Manager</p>
-  <h3>Office</h3>
-  <p>NYC, USA</p>
-  
+ <b> ID</b>
+  6287273
+
+ <b> DESIGNATION</b>
+  Senior Manager
+
+  <b>Office</b>
+  NYC, USA   
+</pre>
 </center>
 </div>
 </section>
 
       </section>
     </div>
-
-      <section><div class="middlebar"><center><h1>PRODUCT</h1></center></div></section>
-      <section><div class="lastbar"><center><h1>VENDORS</h1></center></div></section>
-      <section><div class="mainbar">
-        <pre>
-          <input type="text" id="ip2" placeholder="Enter Product Id" name="uname" required>
-
-          <select id="ip3" >
-            <option>Category</option>
+<section>
+  <section>
+    <div class="sidebar">  
+     <section>
+       <div class="middlebar">
+         <center>
+           <h1>PRODUCT</h1>
+  </center>
+  </div>
+  </section>
+  <input type="text" id="searchb" name="searchbar" placeholder="Search by name/ID.." size="70"> 
+   <select id="ip3" >
+            <option>Filter by</option>
           </select>
-          <input type="text" id="ip2" placeholder="Name" name="nam" required>
+           <section> <img src="images/logo11.png" class="notification1" alt="noti" /></section>
+    </section>
 
-          <input type="text" id="ip2" placeholder="Description" name="dsp" required>
+       <section><div class="lastbar1"><center><h1>VENDOR</h1></center></div>
+        
+       </section>
+      <section><div class="lastbar"><center><h1 style="text-align: start">CATEGORY</h1></center></div></section>
+   <!--   <section><div class="mainbar">-->
+       
 
-          <input type="text" id="ip2" placeholder="Price" name="pp" required>
+      </div>
+      <!--</section>-->
+      </section></section>
 
-
-        </pre>
-      </div></section>
-<footer>
-    <div id="mybutton">
-      <pre>
-        <button class="feedback">Add</button><br>  <button class="feedback1">Cancel</button>
-        </pre>
-        </div>
-</footer>
     </body>
 </html>

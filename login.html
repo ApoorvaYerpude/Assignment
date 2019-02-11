@@ -1,57 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-        <script src="js/main.js"></script>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+          <script src="js/main.js"></script>
     <title> Gizzly Store</title>
-<!---<link rel = "stylesheet"
-    type = "text/css"
-    href = "css/myStyle.css" />
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<style>
-#ip2 {
-    border-radius: 25px;
-    border: 2px solid gray;
-    padding: 20px; 
-    width: 200px;
-    height: 15px;    
-}
+    <style>
+      .responsive {
+      width: 80%;
+      height: auto;
+      }
+      .rounded1 {
+        border-radius: 25px;
+        background-color: #EAE9E8;
+        padding: 5px;
+      }
+       .rounded2 {
+        border-radius: 25px;
+        background-color: #E3E3E3  ;
+        padding: 5px;
+        width: 100px;
+        color: #636363  ;
+      }
+      .hr {
+      border:none;
+      height: 20px;
+      width: 90%;
+                height: 50px;
+                    margin-top: 0;
+                    border-bottom: 1px solid gray;
+                    box-shadow: 0 20px 20px -20px lightgray;
+      margin: -50px auto 10px; 
+      }
+      div.a {
+      font-size: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif ;
+      }
 
 </style>
-</head>
-<body>
-
-
-<header>
-    <center>
-        <img src="images/logo.png" alt="logo" height="500" width="900" /> 
-    </center>
-</header>
-
-
-  <nav>
-    <section>
-     
-        <center>
-            <pre>
-                <form name="myform" method="post" >  
-                <input type="text" id="ip2" placeholder="Enter Username" name="name" required>
-
-                <input type="submit" id="ip2" value="Login" name="log" onclick="validateform(this.form)">
-               </pre>     
-        </center>
-      
-    </section>
+  </head>
+  <center><img src="images/pic2.png" class="responsive"></center>
+  <div class="a"><center>GRIZZLY STORE</center></div>
+  <hr class="hr"> <br>
+  <form name="myform">
+  <center><input type="text" placeholder="Username" class="rounded1" name="name" required></center><br>
+  <center><input type="submit" name="log" value="Login" class="rounded2"  onclick="validateform(this.form)">
   
-  </nav>
-  
-  <article>
-  </article>
-
-
-<footer>
-  <p></p>
-</footer>
-
-</body>
+  </form>
 </html>
